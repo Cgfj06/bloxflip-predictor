@@ -36,4 +36,4 @@ async def predict(ctx):
         """
                 em=discord.Embed(description=desc,color=color)
                 await ok.edit(embed=em)
-bot.run("BOT TOKEN HERE")
+bot.run("01074e2ea2b34da571633c76381356ab250f17d37bba4fff2219f6042e8a6026")
