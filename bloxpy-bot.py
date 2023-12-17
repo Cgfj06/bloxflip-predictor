@@ -8,7 +8,7 @@ bot = commands.Bot(command_prefix=".",intents=discord.Intents.all())
 scraper = cloudscraper.create_scraper()
 
 @bot.command()
-async def predict(ctx):
+async def predict(ctx):01074e2ea2b34da571633c76381356ab250f17d37bba4fff2219f6042e8a6026
     games = scraper.get("https://rest-bf.blox.land/games/crash").json()
     if ctx.author.id != bot.user.id:
         await ctx.reply(embed=discord.Embed(description="check ur dms",color=0x5ca3ff))
