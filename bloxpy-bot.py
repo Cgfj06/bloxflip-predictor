@@ -13,7 +13,7 @@ async def predict(ctx):
     if ctx.author.id != bot.user.id:
         await ctx.reply(embed=discord.Embed(description="check ur dms",color=0x5ca3ff))
         ok = await ctx.author.send(embed=discord.Embed(title="checking api",description="please wait until the bot checks the api",color=0x5ca3ff))
-        def lol():
+        def lol():01074e2ea2b34da571633c76381356ab250f17d37bba4fff2219f6042e8a6026
             r=scraper.get("https://rest-bf.blox.land/games/crash").json()["history"]
             yield [r[0]["crashPoint"], [float(crashpoint["crashPoint"]) for crashpoint in r[-2:]]]
         for game in lol():
