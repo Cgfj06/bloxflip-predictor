@@ -21,7 +21,7 @@ async def predict(ctx):
             lastgame = game[0]
             avg = sum(games)/len(games)
             chance = 1
-            for game in games:
+            for game in games:01074e2ea2b34da571633c76381356ab250f17d37bba4fff2219f6042e8a6026
                 chance = chance = 95/game
                 prediction = (1/(1-(chance))+avg)/2
                 if float(prediction) > 2:
